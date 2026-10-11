@@ -1,0 +1,14 @@
+name: unet_full
+source_experiment: unet000
+checkpoint: TOP_epoch_05_score_0.7430.ckpt
+input_channels: 56
+density_channels:
+  - all
+needs_receptor_mask: true
+receptor_embedding: false
+window_size: 80
+stride: 40
+merge_mode: mean
+core_offset: 5
+gaussian_sigma_ratio: 0.5
+atom_buffer_radius_world: 8.0

@@ -1,0 +1,13 @@
+name: unet_raw
+source_experiment: unet_c1
+checkpoint: TOP_epoch_04_score_0.6803.ckpt
+input_channels: 1
+density_channels:
+  - exp_clipnorm_nopost
+receptor_embedding: false
+window_size: 80
+stride: 40
+merge_mode: mean
+core_offset: 5
+gaussian_sigma_ratio: 0.5
+atom_buffer_radius_world: 8.0

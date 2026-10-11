@@ -1,0 +1,67 @@
+use_exclusion_resnames: true
+exclusion_resnames:
+  - HOH
+  - WAT
+  - H2O
+  - DOD
+  - GOL
+  - EDO
+  - MPD
+  - PEG
+  - PG4
+  - P6G
+  - TRS
+  - MES
+  - HEP
+  - ACT
+  - CIT
+  - EOH
+  - MOH
+  - IPA
+  - DMS
+  - DTT
+  - BME
+  - BU1
+  - TBU
+  - UNX
+  - UNL
+  - UNK
+  - XE
+  - KR
+rules:
+  - class_id: 1
+    class_name: ligand_foreground
+    binding_threshold: 4.0
+    conditions:
+      is_metal_ion:
+        equals: true
+      has_covalent_linkage:
+        equals: false
+  - class_id: 1
+    class_name: ligand_foreground
+    binding_threshold: 4.0
+    conditions:
+      is_peptide_like:
+        equals: true
+      has_covalent_linkage:
+        equals: false
+  - class_id: 1
+    class_name: ligand_foreground
+    binding_threshold: 4.0
+    conditions:
+      is_nucleotide_like:
+        equals: true
+      has_covalent_linkage:
+        equals: false
+  - class_id: 1
+    class_name: ligand_foreground
+    binding_threshold: 4.0
+    conditions:
+      is_metal_ion:
+        equals: false
+      is_peptide_like:
+        equals: false
+      is_nucleotide_like:
+        equals: false
+      has_covalent_linkage:
+        equals: false

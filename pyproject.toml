@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ligandseek"
+version = "1.0.0"
+description = "Ligand localization in cryo-EM maps with the four Ligandseek paper models"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = [
+    "torch==2.4.1",
+    "numpy==1.26.4",
+    "scipy==1.11.4",
+    "biopython==1.83",
+    "mrcfile==1.5.4",
+    "einops==0.8.2",
+    "PyYAML>=6,<7",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+pv = ["addict==2.4.0", "timm==0.9.16", "torch-scatter==2.1.2", "torch-cluster==1.6.3", "flash-attn==2.8.3"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"ligandseek.models.PTV3bakcbone" = ["LICENSE"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

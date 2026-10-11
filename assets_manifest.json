@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "release": "v1.0.0",
+  "assets": [
+    {
+      "name": "TOP_epoch_04_score_0.6803.ckpt",
+      "kind": "checkpoint",
+      "model": "unet_raw",
+      "sha256": "f5fe7b628b3aab568da7f720b857508a2d32b1587b7b86b224fb7fa26c92be25",
+      "bytes": 171451946,
+      "url": "https://github.com/Hongen-Peng200412/Ligandseek/releases/download/v1.0.0/TOP_epoch_04_score_0.6803.ckpt",
+      "destination": "checkpoints/TOP_epoch_04_score_0.6803.ckpt"
+    },
+    {
+      "name": "TOP_epoch_05_score_0.7024.ckpt",
+      "kind": "checkpoint",
+      "model": "unet_diff",
+      "sha256": "3306ac57db12ccd583e1f8e54c6e9a2710d5fa39c3003fec6840ec679616dfd7",
+      "bytes": 171458858,
+      "url": "https://github.com/Hongen-Peng200412/Ligandseek/releases/download/v1.0.0/TOP_epoch_05_score_0.7024.ckpt",
+      "destination": "checkpoints/TOP_epoch_05_score_0.7024.ckpt"
+    },
+    {
+      "name": "TOP_epoch_05_score_0.7430.ckpt",
+      "kind": "checkpoint",
+      "model": "unet_full",
+      "sha256": "3bbd65897bfdaa9e60a9a54746ae47bb543181e454469c9762be1af988cc993f",
+      "bytes": 171770314,
+      "url": "https://github.com/Hongen-Peng200412/Ligandseek/releases/download/v1.0.0/TOP_epoch_05_score_0.7430.ckpt",
+      "destination": "checkpoints/TOP_epoch_05_score_0.7430.ckpt"
+    },
+    {
+      "name": "TOP_epoch_05_score_0.7472.ckpt",
+      "kind": "checkpoint",
+      "model": "ligandseek_pv",
+      "sha256": "20f138d7cbcd9b19f92c2dcd009dc7406d1a825d25f227fc3cc50ef345e3d524",
+      "bytes": 175331450,
+      "url": "https://github.com/Hongen-Peng200412/Ligandseek/releases/download/v1.0.0/TOP_epoch_05_score_0.7472.ckpt",
+      "destination": "checkpoints/TOP_epoch_05_score_0.7472.ckpt"
+    },
+    {
+      "name": "examples_8z0f.tar.gz",
+      "kind": "example",
+      "case": "8z0f",
+      "sha256": "4f4872f8f175f7058af72bcbef132d61c0bf35401c7d3a8615115920082a7c54",
+      "bytes": 32778910,
+      "url": "https://github.com/Hongen-Peng200412/Ligandseek/releases/download/v1.0.0/examples_8z0f.tar.gz",
+      "destination": "."
+    },
+    {
+      "name": "examples_7z24.tar.gz",
+      "kind": "example",
+      "case": "7z24",
+      "sha256": "d503d988d4ca13255a280a6b3682f849a0c4ebad090ba059398058c5d2868bef",
+      "bytes": 10038581,
+      "url": "https://github.com/Hongen-Peng200412/Ligandseek/releases/download/v1.0.0/examples_7z24.tar.gz",
+      "destination": "."
+    },
+    {
+      "name": "examples_9bxc.tar.gz",
+      "kind": "example",
+      "case": "9bxc",
+      "sha256": "801f26a56785138819a4a8ba0266305866b2429e2c302ce8af79137b0f4bc304",
+      "bytes": 65583151,
+      "url": "https://github.com/Hongen-Peng200412/Ligandseek/releases/download/v1.0.0/examples_9bxc.tar.gz",
+      "destination": "."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite Ligandseek and the accompanying BIBM 2026 paper when using this software or its model weights."
+type: software
+title: "Ligandseek: Receptor-Aware Ligand-Region Localization in Cryo-EM Density Maps"
+authors:
+  - name: "Ligandseek contributors"
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/Hongen-Peng200412/Ligandseek"
+abstract: "Four-model inference and companion examples for receptor-aware ligand-region localization in cryo-EM density maps. The accompanying paper was accepted at BIBM 2026."

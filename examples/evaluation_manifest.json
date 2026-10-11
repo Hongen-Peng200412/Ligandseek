@@ -1,0 +1,10 @@
+[
+  {
+    "map_path": "examples/8z0f/experimental.map",
+    "labels_npz_path": "examples/8z0f/ground_truth.npz",
+    "cif_gt_path": "examples/8z0f/deposited/receptor.cif",
+    "cif_path": "examples/8z0f/inferred/receptor.cif",
+    "sim_map_path": "examples/8z0f/deposited/simulated.mrc",
+    "sim_map_path_cryoatom": "examples/8z0f/inferred/simulated.mrc"
+  }
+]

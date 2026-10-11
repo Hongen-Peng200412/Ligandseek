@@ -1,0 +1,28 @@
+use_exclusion_resnames: true
+rules:
+  - class_id: 1
+    class_name: metal
+    binding_threshold: 4.0
+    conditions:
+      is_metal_ion:
+        equals: true
+      receptor_contact_atom_count:
+        min: 3
+  - class_id: 2
+    class_name: peptide_like
+    binding_threshold: 5.0
+    conditions:
+      is_peptide_like:
+        equals: true
+      polymer_length:
+        range: [2, 29]
+      molecular_weight:
+        range: [150, 5000]
+  - class_id: 3
+    class_name: other_ligand
+    binding_threshold: 4.0
+    conditions:
+      is_metal_ion:
+        equals: false
+      molecular_weight:
+        range: [150, 5000]

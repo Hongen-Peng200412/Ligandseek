@@ -1,0 +1,19 @@
+name: ligandseek_pv
+paper_name: Ligandseek-PV
+source_experiment: emb_unet000
+checkpoint: TOP_epoch_05_score_0.7472.ckpt
+input_channels: 107
+density_channels:
+  - all
+needs_receptor_mask: true
+density_input_channels: 56
+receptor_embedding: true
+receptor_atom_feature_dim: 49
+receptor_embedding_channels: 49
+receptor_occupancy_channels: 2
+window_size: 80
+stride: 40
+merge_mode: mean
+core_offset: 5
+gaussian_sigma_ratio: 0.5
+atom_buffer_radius_world: 8.0

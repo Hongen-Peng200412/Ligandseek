@@ -1,0 +1,29 @@
+checkpoints:
+  unet_raw:
+    paper_name: unet_raw
+    source_experiment: unet_c1
+    file_name: TOP_epoch_04_score_0.6803.ckpt
+    local_path: artifacts/checkpoints/TOP_epoch_04_score_0.6803.ckpt
+    score_in_filename: 0.6803
+    notes: Experimental density only.
+  unet_diff:
+    paper_name: unet_diff
+    source_experiment: unet_c2
+    file_name: TOP_epoch_05_score_0.7024.ckpt
+    local_path: artifacts/checkpoints/TOP_epoch_05_score_0.7024.ckpt
+    score_in_filename: 0.7024
+    notes: Experimental density plus difference-density information.
+  unet_full:
+    paper_name: unet_full
+    source_experiment: unet000
+    file_name: TOP_epoch_05_score_0.7430.ckpt
+    local_path: artifacts/checkpoints/TOP_epoch_05_score_0.7430.ckpt
+    score_in_filename: 0.7430
+    notes: Full multi-view density channel bank.
+  ligandseek_pv:
+    paper_name: Ligandseek-PV
+    source_experiment: emb_unet000
+    file_name: TOP_epoch_05_score_0.7472.ckpt
+    local_path: artifacts/checkpoints/TOP_epoch_05_score_0.7472.ckpt
+    score_in_filename: 0.7472
+    notes: Full density channel bank with receptor point embedding.
